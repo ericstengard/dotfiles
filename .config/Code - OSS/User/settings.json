@@ -1,0 +1,13 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.fontSize": 12,
+}
