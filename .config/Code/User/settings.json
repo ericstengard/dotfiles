@@ -4,7 +4,7 @@
     "window.zoomLevel": 0,
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Nord",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.rulers": [
         80,
         120
