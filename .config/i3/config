@@ -56,7 +56,7 @@ font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+#font pango:DejaVu Sans Mono 10
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -80,7 +80,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+#bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # Lock screen
 bindsym $mod+z exec "betterlockscreen -l"
@@ -219,7 +220,7 @@ bindsym $mod+r mode "resize"
 
 # Change keyboard language
 bindsym $mod+$alt+s exec setxkbmap se
-bindsym $mod+$alt+u exec setxkbmap gb
+bindsym $mod+$alt+u exec setxkbmap us
 
 ### Gaps ###
 
@@ -280,7 +281,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 
 # scrot & gimp - root
-bindsym Mod1+shift+P exec scrot 
+bindsym Mod1+shift+P exec scrot
 # scrot & gimp - select window or rectangle
 bindsym Mod1+p exec scrot -s
 
@@ -289,6 +290,8 @@ bindsym Mod1+p exec scrot -s
 #bar {
 #        status_command i3status
 #}
+
+for_window [class="Navigator"] floating disable
 
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper.jpg
 exec --no-startup-id compton -b --respect-prop-shadow --config $HOME/.config/compton.conf
