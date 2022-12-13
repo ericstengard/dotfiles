@@ -80,9 +80,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export WORKON_HOME=~/.virtualenvs
+export WORKON_HOME=~/Envs
 #source /usr/bin/virtualenvwrapper_lazy.sh
-source $HOME/.local/bin/virtualenvwrapper_lazy.sh
+source $HOME/.local/bin/virtualenvwrapper.sh
 
 #export PATH="$PATH:`/home/es/.local/bin`"
 

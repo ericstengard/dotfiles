@@ -1,7 +1,7 @@
 {
+    "terminal.integrated.allowChords": false,
     "window.menuBarVisibility": "toggle",
-    "editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 0,
+    "editor.fontFamily": "'Hack', 'Noto Color Emoji', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Nord",
     "workbench.iconTheme": "material-icon-theme",
@@ -9,5 +9,7 @@
         80,
         120
     ],
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.lineNumbers": "relative"
 }

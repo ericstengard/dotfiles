@@ -196,7 +196,7 @@ blacklist-0 = num lock
 blacklist-1 = scroll lock
 blacklist-2 = caps lock
 
-Additional formatting
+;Additional formatting
 
 ; Available tags:
 ;   <label-layout> (default)
