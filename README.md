@@ -1,2 +1,3 @@
-# dotfiles
-Just some dotfiles
+#dotfiles
+
+Just some dotfiles.
