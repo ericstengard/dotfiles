@@ -8,8 +8,8 @@ export ZSH="/home/es/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="gallois"
-
+#ZSH_THEME="gallois"
+ZSH_THEME="robbyrussell"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -81,7 +81,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export WORKON_HOME=~/Envs
-#source /usr/bin/virtualenvwrapper_lazy.sh
 source $HOME/.local/bin/virtualenvwrapper.sh
 
 #export PATH="$PATH:`/home/es/.local/bin`"
