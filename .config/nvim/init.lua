@@ -1,8 +1,8 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.cmp"
-require "user.lsp"
-require "user.treesitter"
-require("user.autopairs")
+require "es.options"
+require "es.keymaps"
+require "es.plugins"
+require "es.colorscheme"
+require "es.cmp"
+require "es.lsp"
+require "es.treesitter"
+require("es.autopairs")
