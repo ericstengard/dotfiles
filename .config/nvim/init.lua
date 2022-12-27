@@ -6,3 +6,4 @@ require "es.cmp"
 require "es.lsp"
 require "es.treesitter"
 require("es.autopairs")
+require("es.telescope")
