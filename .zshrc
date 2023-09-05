@@ -70,7 +70,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
         git
-        virtualenvwrapper
         docker
         docker-compose
         sudo
@@ -79,11 +78,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export WORKON_HOME=~/Envs
-source $HOME/.local/bin/virtualenvwrapper.sh
-
-#export PATH="$PATH:`/home/es/.local/bin`"
 
 #export MANPATH="/usr/local/man:$MANPATH"
 
@@ -108,6 +102,7 @@ source $HOME/.local/bin/virtualenvwrapper.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias battery="acpi"
 alias c="clear"
 alias l="ls -lAFh"

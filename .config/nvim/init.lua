@@ -1,9 +1,9 @@
-require "es.options"
-require "es.keymaps"
-require "es.plugins"
-require "es.colorscheme"
-require "es.cmp"
-require "es.lsp"
-require "es.treesitter"
-require("es.autopairs")
-require("es.telescope")
+require "options"
+require "keymaps"
+require "plugins"
+require "colorscheme"
+require "cmp_setup"
+require "lsp"
+require "treesitter"
+require("autopairs")
+require("telescope")
