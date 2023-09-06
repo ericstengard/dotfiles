@@ -43,33 +43,19 @@ ramp-4 = " 🌑"
 format-background = ${colors.nord2}
 format-foreground = ${colors.nord4}
 
-;[module/vpn]
-;type = custom/script
-;exec = echo "  "
-;exec-if = ip a | grep wvpn > /dev/null
-;interval = 5
-;format-background = ${colors.nord2}
 
-;[module/axis]
-;type = custom/script
-;exec = echo "  "
-;exec-if = pgrep sshuttle > /dev/null
-;interval = 5
-;format-background = ${colors.nord2}
-
-;[module/wired]
-;type = internal/network
-;interface = enp0s25
-;label-connected = "  "
-;format-connected = <label-connected>
-;format-connected-background = ${colors.nord2}
+[module/wired]
+type = internal/network
+interface = enp8s0
+format-connected = <label-connected>
+format-connected-background = ${colors.nord2}
 
 [module/wireless]
 type = internal/network
 interface = wlp4s0
 label-connected = "  "
 format-connected = <label-connected>
-format-connected-background = ${colors.nord2}
+format-connected-background = ${colors.nord1}
 
 [module/date]
 type = internal/date
@@ -175,16 +161,6 @@ label-maxlen = 100
 label-empty = Empty
 label-empty-foreground = #707880
 
-[module/spotify]
-type = custom/script
-format-background = ${colors.nord2}
-format-foreground = ${colors.nord4}
-interval = 1
-format-prefix = " "
-format = <label>
-exec = python ~/.config/polybar/spotify_status.py -t 25 -f '{artist}: {song}'
-format-underline = #1db954
-
 [module/keyboard]
 type = internal/xkeyboard
 
@@ -231,17 +207,12 @@ monitor-strict = true
 bottom = true
 modules-left = i3
 modules-center = title
-modules-right = date time wireless backlight pulseaudio battery keyboard
+modules-right = date time wired wireless backlight pulseaudio battery keyboard
 monitor = ${env:MONITOR1}
 ;monitor = eDP1
 background = ${colors.nord0}
 foreground = ${colors.nord4}
-font-0 = Hack:size=10;3
-font-1 = DejavuSans:size=10;3
-font-2 = NotoSansSymbols2:size=12;5
-font-3 = FontAwesome5Free:size=10;3
-font-4 = FontAwesome5Free:style=Solid:size=10;3
-font-5 = MaterialIcons:size=10;3
+font-0 = RobotoMonoNerdFont:size=10;3
 height = 24
 tray-position = right
 tray-padding = 4
