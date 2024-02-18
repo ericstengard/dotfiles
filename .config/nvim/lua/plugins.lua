@@ -47,7 +47,6 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use { "ellisonleao/gruvbox.nvim", as = "gruvbox" }
 
   -- cmp plugins
@@ -66,11 +65,12 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/mason.nvim" -- simple to use language server installer
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
-  use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
 
 	-- Telescope
-	use { "nvim-telescope/telescope.nvim"}
-  use { "nvim-telescope/telescope-file-browser.nvim" }
+  use {
+    "nvim-telescope/telescope-file-browser.nvim",
+    requires = { "nvim-telescope/telescope.nvim"}
+}
 
   -- Treesitter
   use {
