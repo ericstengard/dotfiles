@@ -5,5 +5,5 @@ require "colorscheme"
 require "cmp_setup"
 require "lsp"
 require "treesitter"
-require("autopairs")
-require("telescope")
+require "autopairs"
+require "telescope_config"
