@@ -218,9 +218,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Change keyboard language
-bindsym $mod+$alt+s exec setxkbmap se
-bindsym $mod+$alt+u exec setxkbmap us
+# Change keyboard layout
+exec_always "setxkbmap -model pc105 -layout us,se -variant ,, -option grp:win_space_toggle"
 
 ### Gaps ###
 
