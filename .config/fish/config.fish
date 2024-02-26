@@ -8,6 +8,9 @@ set -q XDG_CONFIG_HOME || set -U XDG_CONFIG_HOME $HOME/.config
 set -q XDG_DATA_HOME || set -U XDG_DATA_HOME $HOME/.local/share
 set -q XDG_RUNTIME_DIR || set -U XDG_RUNTIME_DIR $HOME/.xdg
 
+# Add local bin to $PATH
+set -Ua fish_user_paths $HOME/.local/bin
+
 # Default editor nvim
 set -x EDITOR nvim
 
