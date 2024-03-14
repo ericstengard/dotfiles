@@ -18,3 +18,8 @@ set -x EDITOR nvim
 
 # suppress the default login message
 set -g fish_greeting
+
+# Activate pyenv
+status --is-interactive; and pyenv init - | source
+status --is-interactive; and pyenv virtualenv-init - | source
+
