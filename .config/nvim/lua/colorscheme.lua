@@ -1,4 +1,4 @@
-local colorscheme = "gruvbox"
+local colorscheme = "noctis_lux"
 
 vim.o.background = "light" -- or "light" for light mode
 
