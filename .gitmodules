@@ -1,6 +1,3 @@
-[submodule ".config/rofi/gruvbox-rofi"]
-	path = .config/rofi/gruvbox-rofi
-	url = https://github.com/bardisty/gruvbox-rofi
 [submodule ".config/tmux/plugins/tpm"]
 	path = .config/tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
