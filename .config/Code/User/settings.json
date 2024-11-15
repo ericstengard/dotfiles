@@ -1,0 +1,44 @@
+{
+    "editor.fontFamily": "Iosevka Nerd Font",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "editor.trimAutoWhitespace": true,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "makefile.configureOnOpen": false,
+    "redhat.telemetry.enabled": false,
+    "remote.SSH.defaultForwardedPorts": [
+        {
+            "localPort": 5173,
+            "name": "frontendPort",
+            "remotePort": 5173
+        },
+        {
+            "localPort": 8080,
+            "name": "backendPort",
+            "remotePort": 8080
+        },
+        {
+            "localPort": 15672,
+            "name": "rabbitMQPort",
+            "remotePort": 15672
+        }
+    ],
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Noctis Lux",
+    "workbench.list.horizontalScrolling": true
+}
