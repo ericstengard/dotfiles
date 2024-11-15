@@ -1,0 +1,9 @@
+profile docked {
+    output eDP-1 enable mode 1920x1080 position 6000,0
+    output "Dell Inc. DELL P2715Q V48W265B780L" enable mode 3840x2160 position 2160,0 scale 1.4
+    output "Dell Inc. DELL P2415Q D8VXF6950FRL" enable mode 3840x2160 position 0,0 transform 90 scale 1.4 
+}
+
+profile laptop {
+    output eDP-1 enable mode 1920x1080 position 0,0
+}
