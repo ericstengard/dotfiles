@@ -16,11 +16,14 @@ set -Ua fish_user_paths $HOME/.local/bin
 # Default editor nvim
 set -x EDITOR nvim
 
+# Make sure KRB5CCNAME isn't set
+set --erase KRB5CCNAME
+
 # suppress the default login message
 set -g fish_greeting
 
 # Activate pyenv if we can find the binary.
-if which pyenv
-    status --is-interactive; and pyenv init - | source
-    status --is-interactive; and pyenv virtualenv-init - | source
+if which pyenv >/dev/null
+    pyenv init - fish | source
+    pyenv virtualenv-init - fish | source
 end
