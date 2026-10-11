@@ -1,42 +1,100 @@
 tap "homebrew/bundle"
+# Functional metaprogramming aware language built on Erlang VM
+brew "elixir"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# XML-based font configuration API for X Windows
 brew "fontconfig"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Improved top (interactive process viewer)
 brew "htop"
+# Clean C library for processing UTF-8 Unicode data
 brew "utf8proc"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Command-line interface for SQLite
 brew "sqlite"
+# Port scanning utility for large networks
 brew "nmap"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Rsync for cloud storage
+brew "rclone"
+# Terminal multiplexer
 brew "tmux"
+# Upgrade all the things
 brew "topgrade"
+# Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Yet Another Dotfiles Manager
 brew "yadm"
+# GPU-accelerated terminal emulator
 cask "alacritty"
+# Enable Windows-like alt-tab
 cask "alt-tab"
+# Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Display management tool
 cask "betterdisplay"
+# E-books management software
 cask "calibre"
+# Write, edit, and chat about your code with AI
 cask "cursor"
+# Server and cloud storage browser
 cask "cyberduck"
-cask "darktable"
+# Voice and text chat software
+cask "discord"
+# Web browser
 cask "firefox"
 cask "font-iosevka-nerd-font"
+# Convert RAW images captured with Fujifilm cameras
 cask "fujifilm-x-raw-studio"
+# Keyboard customiser
 cask "karabiner-elements"
+# Smooths scrolling and set mouse scroll directions independently
 cask "mos"
+# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
 cask "mp3tag"
+# VPN client
 cask "mullvad-vpn"
+# Music tagger
+cask "musicbrainz-picard"
+# Client for Proton Mail and Proton Calendar
 cask "proton-mail"
+# Peer to peer Bitorrent client
 cask "qbittorrent"
+# Menu bar app that enables system-wide navigation using side mouse buttons
 cask "sanesidebuttons"
+# Music streaming service
 cask "spotify"
+# System monitor for the menu bar
 cask "stats"
+# Messaging app with a focus on speed and security
 cask "telegram"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+vscode "jakebecker.elixir-ls"
+vscode "liviuschera.noctis"
+vscode "mjmcloug.vscode-elixir"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "nimlang.nimlang"
+vscode "pkief.material-icon-theme"
